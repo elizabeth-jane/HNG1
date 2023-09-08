@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/headshot.jpg" alt="Elizabeth-Jane" data-testid="slackDisplayImage">
+        <h1 data-testid="slackUserName">Elizabeth-Jane</h1>
+        <div class="calendar" data-testid="currentDayOfTheWeek"><p id="currentDate"></p></div>
+        <div class="clock">
+            <div class="time" data-testid="currentUTCTime" id="currentTime"></div>
+        </div>
+          <div class="image-container">
+                <div><h2 data-testid="myTrack">Front-End Track</h2></div>
+               <div data-testid="githubURL"> <a href="https://github.com/elizabeth-jane"><img src="images/github.png" alt="github"></a></div>
+          </div>
+        
+        <script src="script.js"></script>    
+    </div>
+   
+</body>
+</html>
